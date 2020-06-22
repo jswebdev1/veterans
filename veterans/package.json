@@ -1,0 +1,16 @@
+{
+  "name": "veterans",
+  "version": "1.0.0",
+  "description": "Veterans Landscape Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "JS Web Dev",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1"
+  }
+}
