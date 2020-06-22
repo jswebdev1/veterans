@@ -1,0 +1,90 @@
+/* Nav Bar */
+.navbar .navbar-collapse {
+    text-align: center;
+  }
+
+  /* Title Header */
+  .header {
+    padding-top: 75px;
+    font-family: Helvetica,Arial,sans-serif;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 4rem;
+  }
+  .header-content {
+      text-align: center;
+      font-size: 1.5rem;
+  }
+  /* Background Picture */
+  #background {
+    background-image: url("/images/lawn2.JPG");
+    background-position:center;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    height: 100vh;
+  }
+
+
+  /* Social Buttons */
+#social{
+    padding-top: 20px;
+    height:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+  }
+  
+  #social-buttons a{
+      display: inline-flex;
+      text-decoration: none;
+      font-size: 40px;
+      width: 80px;
+      height: 80px;
+      color: #fff;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      margin: 0 8px;
+    }
+    
+    #social-buttons a::before{
+      content: "";
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      background: linear-gradient(45deg,#22a6b3,#30336b);
+      border-radius: 50%;
+      z-index: -1;
+      transition: 0.3s ease-in;
+    }
+    
+    #social-buttons a:hover::before{
+      transform: scale(0);
+    }
+    
+    #social-buttons a i{
+      transition: 0.3s ease-in;
+    }
+    
+    #social-buttons a:hover i{
+      background: linear-gradient(45deg,#22a6b3,#30336b);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      transform: scale(2.2);
+    }
+
+    /* Footer */
+    footer {
+        color:black;
+        text-align: center;
+        padding-right: 5px;
+        padding-top: 25px;
+       
+    }
+    .publisher {
+        color:black;
+    }
+   a:hover {
+        text-decoration: none;
+        color: teal;
+    }
