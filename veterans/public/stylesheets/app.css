@@ -33,8 +33,11 @@
     height: 100vh;
   }
 
-  #services{
-    color: black;
+  .service-head {
+    text-align: center;
+  }
+  .service-content{
+    text-align: center;
   }
 
 
