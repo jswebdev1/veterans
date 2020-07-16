@@ -2,11 +2,7 @@
 .navbar .navbar-collapse {
     text-align: center;
   }
-  #title {
-    background-image: url("/images/camo.jpg");
-    background-size: cover;
-    background-position: center;
-  }
+
 
   /* Title Header */
   .header {
@@ -15,13 +11,13 @@
     text-align: center;
     padding-bottom: 50px;
     font-size: 4rem;
-    color: white;
+  
 
   }
   .header-content {
       text-align: center;
       font-size: 1.5rem;
-      color: white;
+     
 
   }
   /* Background Picture */
