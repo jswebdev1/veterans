@@ -2,6 +2,11 @@
 .navbar .navbar-collapse {
     text-align: center;
   }
+  #title {
+    background-image: url("/images/camo.JPG");
+    background-size: cover;
+    background-position: center;
+  }
 
   /* Title Header */
   .header {
@@ -10,18 +15,26 @@
     text-align: center;
     padding-bottom: 50px;
     font-size: 4rem;
+    color: white;
+
   }
   .header-content {
       text-align: center;
       font-size: 1.5rem;
+      color: white;
+
   }
   /* Background Picture */
   #background {
-    background-image: url("/images/lawn2.JPG");
+    background-image: url("/images/lawn4.jpg");
     background-position:center;
     background-repeat: no-repeat ;
     background-size: cover;
     height: 100vh;
+  }
+
+  #services{
+    color: black;
   }
 
 
