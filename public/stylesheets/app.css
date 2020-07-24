@@ -1,3 +1,12 @@
+/*Font*/
+body {
+  font-family: 'Titillium Web', sans-serif;
+  background: #abbaab;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
 /* Nav Bar */
 .navbar .navbar-collapse {
     text-align: center;
@@ -7,7 +16,6 @@
   /* Title Header */
   .header {
     padding-top: 75px;
-    font-family: Helvetica,Arial,sans-serif;
     text-align: center;
     padding-bottom: 50px;
     font-size: 4rem;
@@ -31,11 +39,19 @@
 
   .service-head {
     text-align: center;
+    padding-bottom: 50px;
+    font-size: 4rem;
   }
   .service-content{
     text-align: center;
   }
 
+  /* HR Style */
+  hr.style-four {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
 
   /* Social Buttons */
 #social{
